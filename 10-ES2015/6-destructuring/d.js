@@ -38,3 +38,26 @@ const [one, two] = arr; //an extra comma can be added to skip an index
 function getTotal([one, two]) {
     return one + two;
 }
+
+
+// nested destructuring
+
+
+
+//destructuring swap
+
+let delicious = 'mayo';
+let disgusting = 'whipped cream';
+
+// let temp = delicious;
+// delicious = disgusting;
+// disgusting = temp; 
+
+
+
+[disgusting, delicious] = [delicious, disgusting]
+
+
+
+
+
